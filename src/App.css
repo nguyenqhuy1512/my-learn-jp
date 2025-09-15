@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Home page big buttons */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.button-group {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.big-btn {
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transition: background 0.2s;
+}
+.big-btn:hover {
+  background: #0056b3;
+}
